@@ -1,5 +1,6 @@
 main {
   flex: 1;
+  width: 100%;
 }
 
 main ul {
@@ -9,7 +10,10 @@ main ul {
   list-style: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
+  main ul {
+    grid-template-columns: 1fr;
+  }
 }
 
 li.dev-item {
